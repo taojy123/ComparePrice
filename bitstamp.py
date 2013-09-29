@@ -13,6 +13,7 @@ import requests
 import httplib, ssl, urllib2, socket
 
 def get_data():
+    return open("s1.txt").read()
     headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     'Accept-Language': 'zh-CN,zh;q=0.8',
